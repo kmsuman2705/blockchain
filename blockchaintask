@@ -57,7 +57,7 @@ def create_transaction(row):
 
 # Create the blockchain
 shop_chain = Blockchain()
-data = read_data_from_csv("team_task.csv")
+data = read_data_from_csv("data.csv")
 
 # Create blocks for each transaction
 for row in data:
